@@ -8,7 +8,7 @@ $tykung--;
 $Hash=NULL; 
     for($x=0;$x<=$qtd;$x++){ 
         $Posicao = rand(0,$tykung); 
-        $Hash .= substr($karakter,$Posicao,3); 
+        $Hash .= substr($karakter,$Posicao,1); 
     } 
 return $Hash; 
 } 
